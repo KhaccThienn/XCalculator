@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" name="" id="a" onchange="cal()" placeholder="Nhap so thu nhat">
+        <select value="" id="pt" onchange="cal()">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="text" name="" id="b" onchange="cal()" placeholder="Nhap so thu hai">
+        <button onclick="cal()">=</button>
+        <input type="text" id="kq" placeholder="Ket Qua">
+    </div>
+
+
+    <script src="/JS/app.js"></script>
+</body>
+
+</html>
